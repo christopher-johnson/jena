@@ -25,11 +25,17 @@ import org.apache.jena.sys.JenaSystem;
  */
 public class JenaInit {
 
+    /** Development support - flag to enable output during
+     * initialization. Output to {@code System.err}, not a logger
+     * to avoid the risk of recursive initialization.
+     */
+    public static boolean DEBUG_INIT = false ;
+
     /**
      * Initialize Jena.
      */
     public static void init() {
-        JenaSystem.init();
+        JenaInit.init();
     }
 
     /** Shutdown subsystems */
@@ -37,4 +43,11 @@ public class JenaInit {
         JenaSystem.shutdown();
     }
 
+    /** Output a debugging message if DEBUG_INIT is set */
+    public static void logLifecycle(String fmt, Object ...args) {
+        if ( ! DEBUG_INIT )
+            return ;
+        System.err.printf(fmt, args) ;
+        System.err.println() ;
+    }
 }

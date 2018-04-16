@@ -20,11 +20,11 @@ package org.apache.jena.riot ;
 
 import org.apache.jena.riot.system.IO_JenaReaders ;
 import org.apache.jena.riot.system.IO_JenaWriters ;
-import org.apache.jena.sys.JenaSystem ;
+import org.apache.jena.system.JenaInit;
 
 public class IO_Jena
 {
-    static { JenaSystem.init(); }
+    static { JenaInit.init(); }
     
 //    private static String      riotBase               = "http://jena.apache.org/riot/" ;
 //    private static String      streamManagerSymbolStr = riotBase + "streammanager" ;

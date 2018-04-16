@@ -33,7 +33,7 @@ import org.apache.jena.riot.resultset.rw.ResultsWriter;
 import org.apache.jena.sparql.resultset.ResultSetException;
 import org.apache.jena.sparql.resultset.SPARQLResult;
 import org.apache.jena.sparql.util.Context ;
-import org.apache.jena.sys.JenaSystem;
+import org.apache.jena.system.JenaInit;
 
 /** 
  * Reading and writing of Result Sets.
@@ -42,7 +42,7 @@ import org.apache.jena.sys.JenaSystem;
  * @see ResultSetFormatter 
  */
 public class ResultSetMgr {
-    static { JenaSystem.init(); }
+    static { JenaInit.init(); }
     
     /**
      * Read from a {@code URL} (including filenames) and produce a {@link ResultSet}.

@@ -31,14 +31,14 @@ import org.apache.jena.graph.Triple;
 import org.apache.jena.sparql.core.Quad;
 import org.apache.jena.sparql.core.Var;
 import org.apache.jena.sparql.sse.SSE;
-import org.apache.jena.sys.JenaSystem;
+import org.apache.jena.system.JenaInit;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class TestSerializable {
     @BeforeClass
     public static void beforeClass() {
-        JenaSystem.init();    
+        JenaInit.init();
     }
     
     private static <X> X roundTrip(X n) throws IOException, ClassNotFoundException {

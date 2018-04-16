@@ -48,14 +48,14 @@ import org.apache.jena.sparql.sse.builders.BuilderResultSet ;
 import org.apache.jena.sparql.util.Context;
 import org.apache.jena.sparql.util.NodeFactoryExtra ;
 import org.apache.jena.sparql.util.ResultSetUtils ;
-import org.apache.jena.sys.JenaSystem;
+import org.apache.jena.system.JenaInit;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test ;
 
 public class TestResultSet extends BaseTest
 {
-    static { JenaSystem.init(); }
+    static { JenaInit.init(); }
     
     @BeforeClass
     public static void setup() {

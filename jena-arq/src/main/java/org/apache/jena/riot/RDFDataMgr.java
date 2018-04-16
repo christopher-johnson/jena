@@ -45,7 +45,7 @@ import org.apache.jena.sparql.core.Quad ;
 import org.apache.jena.sparql.graph.GraphFactory ;
 import org.apache.jena.sparql.util.Context ;
 import org.apache.jena.sparql.util.Symbol ;
-import org.apache.jena.sys.JenaSystem ;
+import org.apache.jena.system.JenaInit;
 import org.slf4j.Logger ;
 import org.slf4j.LoggerFactory ;
 
@@ -75,7 +75,7 @@ import org.slf4j.LoggerFactory ;
 
 public class RDFDataMgr
 {
-    static { JenaSystem.init() ; }
+    static { JenaInit.init() ; }
     
     static Logger log = LoggerFactory.getLogger(RDFDataMgr.class) ;
     

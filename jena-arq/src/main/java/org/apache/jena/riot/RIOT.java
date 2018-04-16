@@ -24,7 +24,7 @@ import org.apache.jena.sparql.SystemARQ ;
 import org.apache.jena.sparql.mgt.SystemInfo ;
 import org.apache.jena.sparql.util.Context ;
 import org.apache.jena.sparql.util.Symbol ;
-import org.apache.jena.sys.JenaSystem ;
+import org.apache.jena.system.JenaInit;
 
 public class RIOT {
     // Initialization statics must be first in the class to avoid
@@ -62,11 +62,11 @@ public class RIOT {
             return ;
         synchronized (initLock) {
             if ( initialized ) {
-                JenaSystem.logLifecycle("RIOT.init - skip") ;
+                JenaInit.logLifecycle("RIOT.init - skip") ;
                 return ;
             }
             initialized = true ;
-            JenaSystem.logLifecycle("RIOT.init - start") ;
+            JenaInit.logLifecycle("RIOT.init - start") ;
             // Be careful with what this touches - don't touch ARQ.*
             // because that depends on Jena core and we may be
             // initializing because IO_Ctl (ie. Jena core)
@@ -81,7 +81,7 @@ public class RIOT {
             // Don't register JMX info with ARQ as it may not be initialized
             // itself and we can get into a circularity.
             // This is done in ARQ.init at the proper moment.
-            JenaSystem.logLifecycle("RIOT.init - finish") ;
+            JenaInit.logLifecycle("RIOT.init - finish") ;
         }
     }
 

@@ -18,6 +18,8 @@
 
 package arq;
 
+import static org.apache.jena.system.JenaInit.init;
+
 import jena.cmd.ArgDecl;
 import jena.cmd.CmdException;
 import jena.cmd.CmdLineArgs;
@@ -42,7 +44,6 @@ import org.apache.jena.sparql.function.FunctionEnv ;
 import org.apache.jena.sparql.sse.WriterSSE ;
 import org.apache.jena.sparql.util.ExprUtils ;
 import org.apache.jena.sparql.util.NodeFactoryExtra ;
-import org.apache.jena.sys.JenaSystem ;
 
 /** A program to execute expressions from the command line. */
 
@@ -50,7 +51,7 @@ public class qexpr
 {
     static {
         LogCtl.setCmdLogging() ;
-        JenaSystem.init() ;
+        init() ;
     }
 
     public static void main (String... argv)

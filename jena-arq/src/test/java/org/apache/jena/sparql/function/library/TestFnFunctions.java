@@ -23,12 +23,12 @@ import static org.apache.jena.sparql.function.library.LibTest.test;
 import org.apache.jena.sparql.expr.ExprEvalException ;
 import org.apache.jena.sparql.expr.ExprException ;
 import org.apache.jena.sparql.expr.VariableNotBoundException ;
-import org.apache.jena.sys.JenaSystem ;
+import org.apache.jena.system.JenaInit;
 import org.junit.Test ;
 
 public class TestFnFunctions {
 
-    static { JenaSystem.init(); }
+    static { JenaInit.init(); }
     
     @Test public void apply_1() {
         test("fn:apply(math:sqrt, 9)", "3.0e0");

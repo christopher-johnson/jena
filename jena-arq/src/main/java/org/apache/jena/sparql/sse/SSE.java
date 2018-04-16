@@ -58,7 +58,7 @@ import org.apache.jena.sparql.sse.writers.WriterOp ;
 import org.apache.jena.sparql.util.FmtUtils ;
 import org.apache.jena.sparql.vocabulary.FOAF ;
 import org.apache.jena.sparql.vocabulary.ListPFunction ;
-import org.apache.jena.sys.JenaSystem ;
+import org.apache.jena.system.JenaInit;
 import org.apache.jena.util.FileUtils ;
 import org.apache.jena.vocabulary.* ;
 
@@ -96,7 +96,7 @@ import org.apache.jena.vocabulary.* ;
  */
 public class SSE
 {
-    static { JenaSystem.init(); }
+    static { JenaInit.init(); }
     
     private SSE() {}
     

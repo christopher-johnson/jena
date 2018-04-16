@@ -29,12 +29,12 @@ import org.apache.jena.sparql.core.VarExprList ;
 import org.apache.jena.sparql.expr.ExprVar ;
 import org.apache.jena.sparql.expr.nodevalue.NodeValueInteger ;
 import org.apache.jena.sparql.sse.SSE ;
-import org.apache.jena.sys.JenaSystem;
+import org.apache.jena.system.JenaInit;
 import org.junit.Test ;
 
 public class TestOptimizer extends AbstractTestTransform
 {
-    static { JenaSystem.init(); }
+    static { JenaInit.init(); }
     
     // These test calls of the whole optimzier.
     // A lot of the optimizer is tested by using the scripted queries.

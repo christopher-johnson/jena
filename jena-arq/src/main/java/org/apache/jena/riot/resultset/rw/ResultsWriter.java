@@ -30,10 +30,10 @@ import org.apache.jena.riot.resultset.ResultSetWriter;
 import org.apache.jena.riot.resultset.ResultSetWriterFactory;
 import org.apache.jena.riot.resultset.ResultSetWriterRegistry;
 import org.apache.jena.sparql.util.Context;
-import org.apache.jena.sys.JenaSystem;
+import org.apache.jena.system.JenaInit;
 
 public class ResultsWriter {
-    static { JenaSystem.init(); }
+    static { JenaInit.init(); }
     
     /** Create a {@code ResultsWriter.Builder}. */
     public static Builder create() { return new Builder() ; }

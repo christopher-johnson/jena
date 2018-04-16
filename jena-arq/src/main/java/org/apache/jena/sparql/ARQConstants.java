@@ -34,7 +34,7 @@ public class ARQConstants
     public static final String mathPrefix = "http://www.w3.org/2005/xpath-functions/math#" ;
 
     // Using explicit constants here makes ARQConstants safe to use during initialization.
-    // Otherwise it needs JenaSystem.init but the constants may be used during initialization
+    // Otherwise it needs JenaInit.init but the constants may be used during initialization
     // which leads to problems depending in the order of initialization. 
     //
     // In

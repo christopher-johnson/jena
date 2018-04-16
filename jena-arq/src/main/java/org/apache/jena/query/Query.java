@@ -18,6 +18,8 @@
 
 package org.apache.jena.query;
 
+import static org.apache.jena.system.JenaInit.init;
+
 import java.io.OutputStream ;
 import java.util.* ;
 
@@ -40,7 +42,6 @@ import org.apache.jena.sparql.syntax.Element ;
 import org.apache.jena.sparql.syntax.PatternVars ;
 import org.apache.jena.sparql.syntax.Template ;
 import org.apache.jena.sparql.util.FmtUtils ;
-import org.apache.jena.sys.JenaSystem ;
 
 /** The data structure for a query as presented externally.
  *  There are two ways of creating a query - use the parser to turn
@@ -55,7 +56,7 @@ import org.apache.jena.sys.JenaSystem ;
 
 public class Query extends Prologue implements Cloneable, Printable
 {
-    static { JenaSystem.init() ; /* Ensure everything has started properly */ }
+    static { init() ; /* Ensure everything has started properly */ }
     
     public static final int QueryTypeUnknown    = -123 ;
     public static final int QueryTypeSelect     = 111 ;

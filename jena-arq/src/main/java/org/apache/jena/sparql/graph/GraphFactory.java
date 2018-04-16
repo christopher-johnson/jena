@@ -26,12 +26,12 @@ import org.apache.jena.graph.impl.GraphPlain ;
 import org.apache.jena.rdf.model.Model ;
 import org.apache.jena.rdf.model.ModelFactory ;
 import org.apache.jena.sparql.SystemARQ ;
-import org.apache.jena.sys.JenaSystem ;
+import org.apache.jena.system.JenaInit;
 
 /** Ways to make graphs and models */
 public class GraphFactory
 {
-    static { JenaSystem.init(); }
+    static { JenaInit.init(); }
     
     /** Create a graph that is a Jena memory graph 
      * @see #createDefaultGraph

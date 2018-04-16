@@ -37,7 +37,7 @@ import org.apache.jena.sparql.pfunction.PropertyFunctionRegistry ;
 import org.apache.jena.sparql.util.Context ;
 import org.apache.jena.sparql.util.MappingRegistry ;
 import org.apache.jena.sparql.util.Symbol ;
-import org.apache.jena.sys.JenaSystem ;
+import org.apache.jena.system.JenaInit;
 import org.slf4j.Logger ;
 import org.slf4j.LoggerFactory ;
 
@@ -52,8 +52,8 @@ public class ARQ
     // The best order is:
     //    Initialization controls
     //    All calculated constants
-    //    static { JenaSystem.init() ; }
-    // Otherwise, using constants after JenaSystem.init can lead to null being seen.
+    //    static { JenaInit.init() ; }
+    // Otherwise, using constants after JenaInit.init can lead to null being seen.
     
     private static volatile boolean initialized = false ;
     private static final Object initLock = new Object() ;
@@ -580,7 +580,7 @@ public class ARQ
      * The method is public so any part of ARQ can call it.
      */
     
-    static { JenaSystem.init(); }
+    static { JenaInit.init(); }
     
     public static void init() { 
         if ( initialized ) {
@@ -589,11 +589,11 @@ public class ARQ
         synchronized(initLock)
         {
             if ( initialized ) {
-                JenaSystem.logLifecycle("ARQ.init - skip") ;
+                JenaInit.logLifecycle("ARQ.init - skip") ;
                 return ;
             }
             initialized = true ;
-            JenaSystem.logLifecycle("ARQ.init - start") ;
+            JenaInit.logLifecycle("ARQ.init - start") ;
             // Force constants to be set.  This should be independent of other initialization including jena core.
             ARQConstants.getGlobalPrefixMap();
             ResultSetLang.init();
@@ -613,8 +613,8 @@ public class ARQ
             FunctionRegistry.init() ;
             AggregateRegistry.init() ;
             PropertyFunctionRegistry.init() ;
-            
-            JenaSystem.logLifecycle("ARQ.init - finish") ;
+
+            JenaInit.logLifecycle("ARQ.init - finish") ;
         }
     }
     

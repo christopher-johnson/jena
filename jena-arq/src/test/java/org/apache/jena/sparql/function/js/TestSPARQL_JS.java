@@ -22,7 +22,7 @@ import junit.framework.TestSuite;
 import org.apache.jena.query.ARQ;
 import org.apache.jena.sparql.junit.ScriptTestSuiteFactory;
 import org.apache.jena.sparql.util.Context;
-import org.apache.jena.sys.JenaSystem;
+import org.apache.jena.system.JenaInit;
 import org.junit.runner.RunWith;
 import org.junit.runners.AllTests;
 
@@ -39,7 +39,7 @@ public class TestSPARQL_JS {
     }
     
     static public TestSuite suite() {
-        JenaSystem.init();
+        JenaInit.init();
         setupJS();
         TestSuite ts = new TestSuite(TestSPARQL_JS.class.getName());
         TestSuite ts2 = ScriptTestSuiteFactory.make(MANIFEST);

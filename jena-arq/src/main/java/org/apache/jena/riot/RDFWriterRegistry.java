@@ -25,7 +25,7 @@ import org.apache.jena.riot.system.RiotLib ;
 import org.apache.jena.riot.thrift.WriterDatasetThrift ;
 import org.apache.jena.riot.thrift.WriterGraphThrift ;
 import org.apache.jena.riot.writer.* ;
-import org.apache.jena.sys.JenaSystem ;
+import org.apache.jena.system.JenaInit;
 
 public class RDFWriterRegistry
 {
@@ -34,7 +34,7 @@ public class RDFWriterRegistry
     // Let the serializer deal with the character issues.
     // UTF-8 is universal - but UTF-8 is not the default in Java ("platform encoding" is).
     
-    static { JenaSystem.init() ; }
+    static { JenaInit.init() ; }
     
     private static Map<RDFFormat, WriterGraphRIOTFactory> registryGraph     = new HashMap<>() ;
     private static Map<RDFFormat, WriterDatasetRIOTFactory> registryDataset = new HashMap<>() ;
