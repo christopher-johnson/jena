@@ -26,8 +26,6 @@ import org.apache.jena.graph.Triple ;
 import org.apache.jena.sparql.util.NodeFactoryExtra ;
 import org.apache.jena.tdb.base.file.Location ;
 import org.apache.jena.tdb.setup.DatasetBuilderStd ;
-import org.apache.jena.tdb.store.DatasetGraphTDB ;
-import org.apache.jena.tdb.store.TripleTable ;
 import org.apache.log4j.Level ;
 import org.apache.log4j.Logger ;
 import org.junit.Test ;

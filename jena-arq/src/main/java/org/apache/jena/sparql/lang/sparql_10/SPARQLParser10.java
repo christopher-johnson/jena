@@ -19,7 +19,6 @@
 
 package org.apache.jena.sparql.lang.sparql_10 ;
 
-import org.apache.jena.graph.* ;
 import org.apache.jena.query.* ;
 import org.apache.jena.sparql.core.Var ;
 import org.apache.jena.sparql.expr.* ;

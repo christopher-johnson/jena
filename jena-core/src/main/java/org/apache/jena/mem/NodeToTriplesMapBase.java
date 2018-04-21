@@ -20,9 +20,7 @@ package org.apache.jena.mem;
 
 import java.util.*;
 
-import org.apache.jena.graph.* ;
 import org.apache.jena.graph.Triple.Field ;
-import org.apache.jena.util.iterator.* ;
 
 /**
     A base class for in-memory graphs

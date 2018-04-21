@@ -24,7 +24,6 @@ import java.util.Iterator ;
 import java.util.List ;
 
 import org.apache.jena.n3.N3IRIResolver ;
-import org.apache.jena.rdf.model.* ;
 import org.apache.jena.util.FileManager ;
 import org.apache.jena.vocabulary.RDF ;
 import org.apache.jena.vocabulary.RDFS ;

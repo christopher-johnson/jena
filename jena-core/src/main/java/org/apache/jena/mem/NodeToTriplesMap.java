@@ -23,9 +23,7 @@ import static org.apache.jena.util.iterator.WrappedIterator.create;
 import java.util.*;
 import java.util.function.Predicate;
 
-import org.apache.jena.graph.* ;
 import org.apache.jena.graph.Triple.* ;
-import org.apache.jena.util.iterator.* ;
 
 /**
 	NodeToTriplesMap: a map from nodes to sets of triples.

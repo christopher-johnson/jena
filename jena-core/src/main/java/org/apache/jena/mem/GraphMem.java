@@ -18,7 +18,6 @@
 
 package org.apache.jena.mem;
 
-import org.apache.jena.graph.* ;
 import org.apache.jena.graph.impl.TripleStore ;
 import org.apache.jena.util.iterator.ExtendedIterator ;
 

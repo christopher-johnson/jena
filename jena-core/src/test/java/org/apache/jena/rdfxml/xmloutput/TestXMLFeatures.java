@@ -25,7 +25,6 @@ import java.util.Iterator ;
 import java.util.Set ;
 import java.util.regex.Pattern ;
 
-import org.apache.jena.graph.* ;
 import org.apache.jena.rdf.model.Model ;
 import org.apache.jena.rdf.model.ModelFactory ;
 import org.apache.jena.rdf.model.RDFReader ;

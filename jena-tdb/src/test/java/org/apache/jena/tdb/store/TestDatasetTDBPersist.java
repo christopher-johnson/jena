@@ -33,7 +33,6 @@ import org.apache.jena.tdb.ConfigTest ;
 import org.apache.jena.tdb.StoreConnection ;
 import org.apache.jena.tdb.base.file.Location ;
 import org.apache.jena.tdb.junit.GraphLocation ;
-import org.apache.jena.tdb.store.GraphTDB ;
 import org.junit.After ;
 import org.junit.AfterClass ;
 import org.junit.Before ;

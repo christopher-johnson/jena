@@ -33,7 +33,6 @@ import org.xml.sax.SAXNotRecognizedException;
 import org.xml.sax.SAXNotSupportedException;
 import org.apache.jena.datatypes.RDFDatatype ;
 import org.apache.jena.datatypes.TypeMapper ;
-import org.apache.jena.graph.* ;
 import org.apache.jena.iri.IRIFactory;
 import org.apache.jena.rdf.model.Model ;
 import org.apache.jena.rdf.model.RDFErrorHandler ;

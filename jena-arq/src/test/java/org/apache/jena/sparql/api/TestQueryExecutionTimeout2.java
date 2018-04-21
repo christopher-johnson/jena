@@ -20,7 +20,7 @@ package org.apache.jena.sparql.api;
 
 import static org.apache.jena.atlas.lib.Lib.sleep ;
 
-import org.apache.jena.base.Sys ;
+import org.apache.jena.atlas.Sys ;
 import org.apache.jena.graph.Graph ;
 import org.apache.jena.query.* ;
 import org.apache.jena.sparql.core.DatasetGraph ;

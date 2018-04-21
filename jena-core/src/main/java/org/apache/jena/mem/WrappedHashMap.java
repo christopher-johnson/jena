@@ -22,7 +22,6 @@ import java.util.Map;
 import java.util.function.Function ;
 
 import org.apache.jena.util.CollectionFactory ;
-import org.apache.jena.util.iterator.* ;
 
 /**
     An implementation of BunchMap that delegates to a [Hashed]Map.

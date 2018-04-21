@@ -25,7 +25,6 @@ import org.apache.jena.graph.Graph ;
 import org.apache.jena.graph.Node ;
 import org.apache.jena.graph.Triple ;
 import org.apache.jena.query.* ;
-import org.apache.jena.rdf.model.* ;
 import org.apache.jena.sparql.core.Quad ;
 import org.apache.jena.sparql.util.NotUniqueException ;
 import org.apache.jena.sparql.util.PropertyRequiredException ;

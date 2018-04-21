@@ -31,7 +31,6 @@ import java.util.Set;
 import java.util.TreeSet;
 import java.io.FileInputStream;
 
-import org.apache.jena.rdf.model.*;
 import org.apache.jena.sparql.util.Closure;
 
 /**

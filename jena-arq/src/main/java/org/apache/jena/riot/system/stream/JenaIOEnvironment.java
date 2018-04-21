@@ -22,7 +22,6 @@ import java.util.StringTokenizer ;
 
 import org.apache.jena.JenaRuntime ;
 import org.apache.jena.atlas.web.TypedInputStream ;
-import org.apache.jena.rdf.model.* ;
 import org.apache.jena.riot.adapters.AdapterFileManager ;
 import org.apache.jena.shared.JenaException ;
 import org.apache.jena.util.FileUtils ;

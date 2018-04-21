@@ -19,7 +19,11 @@ package org.apache.jena.permissions.model;
 
 import org.apache.jena.datatypes.RDFDatatype;
 import org.apache.jena.permissions.model.impl.SecuredStatementIterator;
-import org.apache.jena.rdf.model.*;
+import org.apache.jena.rdf.model.AnonId;
+import org.apache.jena.rdf.model.Literal;
+import org.apache.jena.rdf.model.Property;
+import org.apache.jena.rdf.model.RDFNode;
+import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.shared.AddDeniedException;
 import org.apache.jena.shared.AuthenticationRequiredException;
 import org.apache.jena.shared.DeleteDeniedException;

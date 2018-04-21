@@ -28,10 +28,18 @@ import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.CommandLineParser;
 import org.apache.commons.cli.DefaultParser;
 import org.apache.commons.cli.Options;
-import org.apache.jena.graph.* ;
-import org.apache.jena.rdf.model.* ;
+import org.apache.jena.graph.Node;
+import org.apache.jena.graph.Triple;
+import org.apache.jena.rdf.model.InfModel;
+import org.apache.jena.rdf.model.Model;
+import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.reasoner.Reasoner ;
-import org.apache.jena.reasoner.rulesys.* ;
+import org.apache.jena.reasoner.rulesys.BuiltinException;
+import org.apache.jena.reasoner.rulesys.BuiltinRegistry;
+import org.apache.jena.reasoner.rulesys.FBRuleInfGraph;
+import org.apache.jena.reasoner.rulesys.GenericRuleReasoner;
+import org.apache.jena.reasoner.rulesys.Rule;
+import org.apache.jena.reasoner.rulesys.RuleContext;
 import org.apache.jena.reasoner.rulesys.builtins.BaseBuiltin ;
 import org.apache.jena.util.FileManager ;
 import org.apache.jena.util.FileUtils ;
@@ -96,7 +104,6 @@ public class RuleMap {
          * Return a name for this builtin, normally this will be the name of the 
          * functor that will be used to invoke it.
          */
-        @Override
         public String getName() {
             return "deduce";
         }    
@@ -118,7 +125,6 @@ public class RuleMap {
          * for some rule engines
          * @param context an execution context giving access to other relevant data
          */
-        @Override
         public void headAction(Node[] args, int length, RuleContext context) {
             if (context.getGraph() instanceof FBRuleInfGraph) {
                 Triple t = new Triple(args[0], args[1], args[2]);

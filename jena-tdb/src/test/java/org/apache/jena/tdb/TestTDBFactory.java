@@ -23,7 +23,6 @@ import org.apache.jena.atlas.lib.FileOps ;
 import org.apache.jena.sparql.core.DatasetGraph ;
 import org.apache.jena.sparql.core.Quad ;
 import org.apache.jena.sparql.sse.SSE ;
-import org.apache.jena.tdb.TDBFactory ;
 import org.apache.jena.tdb.base.file.Location ;
 import org.apache.jena.tdb.sys.TDBMaker ;
 import org.apache.jena.tdb.transaction.DatasetGraphTransaction ;

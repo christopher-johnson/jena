@@ -26,7 +26,6 @@ import java.util.List ;
 import org.apache.jena.atlas.iterator.Iter ;
 import org.apache.jena.atlas.junit.BaseTest ;
 import org.apache.jena.datatypes.xsd.XSDDatatype ;
-import org.apache.jena.graph.* ;
 import org.apache.jena.rdf.model.Model ;
 import org.apache.jena.rdf.model.ModelFactory ;
 import org.apache.jena.riot.Lang ;

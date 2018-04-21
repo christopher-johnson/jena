@@ -40,8 +40,6 @@ import java.util.TreeSet ;
 import org.apache.jena.atlas.junit.BaseTest ;
 import org.apache.jena.tdb.base.record.Record ;
 import org.apache.jena.tdb.base.record.RecordLib ;
-import org.apache.jena.tdb.index.Index ;
-import org.apache.jena.tdb.index.RangeIndex ;
 
 public class IndexTestLib
 {

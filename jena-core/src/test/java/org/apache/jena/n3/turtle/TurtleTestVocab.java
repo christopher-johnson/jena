@@ -18,8 +18,6 @@
 
 package org.apache.jena.n3.turtle ;
 
-import org.apache.jena.rdf.model.* ;
- 
 /**
  * Vocabulary definitions from TurtleTestVocab.ttl 
  */

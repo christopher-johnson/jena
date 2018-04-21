@@ -17,7 +17,6 @@
  */
 package org.apache.jena.permissions.graph.impl;
 
-import org.apache.jena.graph.*;
 import org.apache.jena.permissions.SecuredItem;
 import org.apache.jena.permissions.SecurityEvaluator;
 import org.apache.jena.permissions.SecurityEvaluator.Action;

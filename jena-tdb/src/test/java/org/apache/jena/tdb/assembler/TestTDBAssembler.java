@@ -30,7 +30,6 @@ import org.apache.jena.sparql.core.assembler.AssemblerUtils ;
 import org.apache.jena.sparql.core.assembler.DatasetAssemblerVocab ;
 import org.apache.jena.tdb.ConfigTest ;
 import org.apache.jena.tdb.StoreConnection ;
-import org.apache.jena.tdb.assembler.VocabTDB ;
 import org.apache.jena.tdb.store.* ;
 import org.apache.jena.tdb.transaction.DatasetGraphTransaction ;
 import org.junit.AfterClass ;

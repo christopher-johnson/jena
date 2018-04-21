@@ -40,7 +40,6 @@ import org.apache.jena.fuseki.FusekiConfigException ;
 import org.apache.jena.fuseki.build.* ;
 import org.apache.jena.fuseki.servlets.HttpAction ;
 import org.apache.jena.fuseki.servlets.ServletOps ;
-import org.apache.jena.rdf.model.* ;
 import org.apache.jena.riot.Lang ;
 import org.apache.jena.riot.RDFDataMgr ;
 import org.apache.jena.riot.RDFLanguages ;

@@ -20,7 +20,6 @@ package org.apache.jena.rdfxml.xmloutput.impl;
 
 import java.io.PrintWriter;
 
-import org.apache.jena.rdf.model.* ;
 import org.apache.jena.rdf.model.impl.Util ;
 import org.apache.jena.vocabulary.RDFSyntax ;
 

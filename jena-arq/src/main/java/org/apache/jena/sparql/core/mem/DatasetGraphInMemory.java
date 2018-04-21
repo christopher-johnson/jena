@@ -34,7 +34,6 @@ import java.util.function.Consumer;
 import java.util.function.Supplier;
 
 import org.apache.jena.atlas.lib.InternalErrorException ;
-import org.apache.jena.graph.*;
 import org.apache.jena.query.ReadWrite;
 import org.apache.jena.query.TxnType;
 import org.apache.jena.shared.Lock;

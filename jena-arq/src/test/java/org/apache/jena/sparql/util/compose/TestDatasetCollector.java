@@ -23,11 +23,9 @@ import static org.apache.jena.sparql.sse.SSE.parseGraph;
 
 import java.util.stream.Stream;
 
-import org.apache.jena.graph.*;
 import org.apache.jena.query.Dataset;
 import org.apache.jena.query.DatasetFactory;
 import org.apache.jena.rdf.model.Model;
-import org.apache.jena.sparql.util.compose.DatasetCollector;
 import org.junit.Assert;
 import org.junit.Test;
 

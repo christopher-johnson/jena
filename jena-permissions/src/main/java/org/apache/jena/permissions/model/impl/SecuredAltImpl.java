@@ -28,7 +28,6 @@ import org.apache.jena.permissions.model.SecuredModel;
 import org.apache.jena.permissions.model.SecuredRDFNode;
 import org.apache.jena.permissions.model.SecuredResource;
 import org.apache.jena.permissions.model.SecuredSeq;
-import org.apache.jena.rdf.model.*;
 import org.apache.jena.shared.AuthenticationRequiredException;
 import org.apache.jena.shared.ReadDeniedException;
 import org.apache.jena.shared.UpdateDeniedException;

@@ -43,7 +43,6 @@ import org.apache.jena.query.Dataset ;
 import org.apache.jena.query.QuerySolution ;
 import org.apache.jena.query.ReadWrite ;
 import org.apache.jena.query.ResultSet ;
-import org.apache.jena.rdf.model.* ;
 import org.apache.jena.riot.Lang;
 import org.apache.jena.sparql.core.assembler.AssemblerUtils ;
 import org.apache.jena.sparql.util.graph.GraphUtils;

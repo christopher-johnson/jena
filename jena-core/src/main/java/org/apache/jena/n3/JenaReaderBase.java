@@ -23,8 +23,6 @@ import java.nio.charset.StandardCharsets ;
 import java.io.* ;
 
 import org.apache.jena.graph.GraphEvents ;
-import org.apache.jena.rdf.model.* ;
-import org.apache.jena.shared.* ;
 import org.apache.jena.util.FileUtils ;
 import org.slf4j.LoggerFactory;
 

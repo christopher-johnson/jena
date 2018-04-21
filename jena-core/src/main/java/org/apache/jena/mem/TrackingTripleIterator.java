@@ -20,7 +20,7 @@ package org.apache.jena.mem;
 
 import java.util.Iterator;
 
-import org.apache.jena.graph.* ;
+import org.apache.jena.graph.Triple;
 import org.apache.jena.util.iterator.WrappedIterator ;
 
 /**

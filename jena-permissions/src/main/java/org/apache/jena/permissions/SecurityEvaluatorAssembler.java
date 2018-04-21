@@ -26,7 +26,6 @@ import org.apache.jena.assembler.Assembler ;
 import org.apache.jena.assembler.Mode ;
 import org.apache.jena.assembler.assemblers.AssemblerBase ;
 import org.apache.jena.assembler.exceptions.AssemblerException ;
-import org.apache.jena.rdf.model.* ;
 
 /**
  * A simple assembler for a SecurityEvaluator

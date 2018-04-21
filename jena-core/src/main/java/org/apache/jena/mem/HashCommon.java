@@ -22,7 +22,6 @@ import java.util.*;
 
 import org.apache.jena.shared.BrokenException ;
 import org.apache.jena.shared.JenaException ;
-import org.apache.jena.util.iterator.* ;
 
 /**
     Shared stuff for our hashing implementations: does the base work for

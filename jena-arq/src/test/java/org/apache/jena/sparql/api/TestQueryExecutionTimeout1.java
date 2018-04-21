@@ -23,7 +23,7 @@ import static org.apache.jena.atlas.lib.Lib.sleep ;
 import java.util.concurrent.TimeUnit ;
 
 import org.apache.jena.atlas.junit.BaseTest ;
-import org.apache.jena.base.Sys ;
+import org.apache.jena.atlas.Sys ;
 import org.apache.jena.graph.Graph ;
 import org.apache.jena.query.* ;
 import org.apache.jena.sparql.core.DatasetGraph ;

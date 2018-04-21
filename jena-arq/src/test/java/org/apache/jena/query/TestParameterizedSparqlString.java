@@ -26,7 +26,6 @@ import java.util.TimeZone ;
 import org.apache.jena.datatypes.TypeMapper ;
 import org.apache.jena.graph.Node ;
 import org.apache.jena.graph.NodeFactory ;
-import org.apache.jena.rdf.model.* ;
 import org.apache.jena.riot.system.IRIResolver;
 import org.apache.jena.shared.impl.PrefixMappingImpl ;
 import org.apache.jena.sparql.ARQException ;

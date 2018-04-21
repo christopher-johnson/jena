@@ -24,8 +24,6 @@ import org.apache.jena.query.QueryFactory ;
 import org.apache.jena.query.Syntax ;
 import org.apache.jena.sparql.algebra.Algebra ;
 import org.apache.jena.sparql.algebra.Op ;
-import org.apache.jena.sparql.syntax.syntaxtransform.ElementTransformCleanGroupsOfOne ;
-import org.apache.jena.sparql.syntax.syntaxtransform.QueryTransformOps ;
 import org.junit.Test ;
 
 public class TestFlattenSyntax extends BaseTest {

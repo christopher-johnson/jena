@@ -22,7 +22,6 @@ import java.util.Iterator;
 import java.util.function.Function;
 
 import org.apache.jena.atlas.iterator.Iter;
-import org.apache.jena.graph.*;
 import org.apache.jena.graph.compose.Union;
 import org.apache.jena.sparql.core.DatasetGraph;
 import org.apache.jena.sparql.core.Quad;

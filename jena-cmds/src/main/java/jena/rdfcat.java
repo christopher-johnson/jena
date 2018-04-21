@@ -30,7 +30,6 @@ import java.io.OutputStream ;
 import java.util.* ;
 import java.util.function.BiConsumer;
 
-import org.apache.jena.rdf.model.* ;
 import org.apache.jena.rdf.model.impl.RDFWriterFImpl ;
 import org.apache.jena.shared.NoWriterForLangException ;
 import org.apache.jena.sys.JenaSystem ;

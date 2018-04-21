@@ -28,7 +28,6 @@ import java.util.*;
 import java.util.Map.Entry;
 
 import org.apache.jena.JenaRuntime ;
-import org.apache.jena.rdf.model.* ;
 import org.apache.jena.rdf.model.impl.Util ;
 import org.apache.jena.shared.JenaException ;
 import org.apache.jena.util.iterator.ClosableIterator ;

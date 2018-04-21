@@ -23,7 +23,6 @@ import static org.apache.jena.atlas.iterator.Iter.iter;
 import java.util.Iterator;
 import java.util.function.Function;
 
-import org.apache.jena.graph.*;
 import org.apache.jena.graph.compose.Intersection;
 import org.apache.jena.sparql.core.DatasetGraph;
 import org.apache.jena.util.iterator.ExtendedIterator;

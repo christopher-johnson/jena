@@ -22,7 +22,6 @@ import static org.junit.Assert.*;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.jena.arq.querybuilder.UpdateBuilder;
 import org.apache.jena.graph.Graph;
 import org.apache.jena.graph.Node;
 import org.apache.jena.graph.NodeFactory;

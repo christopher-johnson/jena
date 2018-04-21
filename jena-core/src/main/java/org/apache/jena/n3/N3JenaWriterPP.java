@@ -21,9 +21,7 @@ package org.apache.jena.n3;
 //import org.apache.commons.logging.*;
 import java.util.* ;
 
-import org.apache.jena.rdf.model.* ;
 import org.apache.jena.shared.JenaException ;
-import org.apache.jena.util.iterator.* ;
 import org.apache.jena.vocabulary.RDF ;
 import org.apache.jena.vocabulary.RDFS ;
 

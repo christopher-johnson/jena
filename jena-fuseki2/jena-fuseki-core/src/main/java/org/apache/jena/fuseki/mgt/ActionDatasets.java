@@ -54,7 +54,6 @@ import org.apache.jena.graph.Node ;
 import org.apache.jena.graph.NodeFactory ;
 import org.apache.jena.query.Dataset ;
 import org.apache.jena.query.ReadWrite ;
-import org.apache.jena.rdf.model.* ;
 import org.apache.jena.riot.* ;
 import org.apache.jena.riot.system.StreamRDF ;
 import org.apache.jena.riot.system.StreamRDFLib ;

@@ -23,7 +23,6 @@ import static org.apache.jena.atlas.logging.LogCtl.setCmdLogging;
 import java.net.*;
 import java.io.*;
 
-import org.apache.jena.rdf.model.* ;
 import org.apache.jena.shared.JenaException ;
 
 /** A program which read an RDF model and copy it to the standard output stream.

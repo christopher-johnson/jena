@@ -20,7 +20,6 @@ package org.apache.jena.mem;
 
 import java.util.*;
 
-import org.apache.jena.graph.* ;
 import org.apache.jena.util.CollectionFactory ;
 import org.apache.jena.util.iterator.NiceIterator ;
 

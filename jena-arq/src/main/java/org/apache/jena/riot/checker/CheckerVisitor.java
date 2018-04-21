@@ -18,7 +18,6 @@
 
 package org.apache.jena.riot.checker;
 
-import org.apache.jena.graph.* ;
 import org.apache.jena.graph.impl.LiteralLabel ;
 
 public class CheckerVisitor implements NodeVisitor

@@ -22,7 +22,11 @@ import java.util.List;
 import java.util.Set;
 
 import org.apache.jena.permissions.SecurityEvaluator.Action;
-import org.apache.jena.rdf.model.*;
+import org.apache.jena.rdf.model.EmptyListException;
+import org.apache.jena.rdf.model.InvalidListException;
+import org.apache.jena.rdf.model.ListIndexException;
+import org.apache.jena.rdf.model.RDFList;
+import org.apache.jena.rdf.model.RDFNode;
 import org.apache.jena.shared.AddDeniedException;
 import org.apache.jena.shared.AuthenticationRequiredException;
 import org.apache.jena.shared.DeleteDeniedException;
@@ -209,8 +213,7 @@ public interface SecuredRDFList extends RDFList, SecuredResource {
 	 *             if user is not authenticated and is required to be.
 	 */
 	@Override
-	public SecuredRDFNode get(final int i) throws ReadDeniedException,
-			EmptyListException, ListIndexException, InvalidListException,
+	public SecuredRDFNode get(final int i) throws ReadDeniedException, EmptyListException, ListIndexException, InvalidListException,
 			AuthenticationRequiredException;
 
 	/**

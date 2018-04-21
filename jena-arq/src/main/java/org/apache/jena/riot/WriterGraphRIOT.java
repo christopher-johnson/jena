@@ -22,7 +22,6 @@ import java.io.OutputStream ;
 import java.io.Writer ;
 
 import org.apache.jena.graph.Graph ;
-import org.apache.jena.riot.Lang ;
 import org.apache.jena.riot.system.PrefixMap ;
 import org.apache.jena.riot.writer.WriterGraphRIOTBase ;
 import org.apache.jena.sparql.util.Context ;

@@ -47,7 +47,7 @@ import org.codehaus.plexus.util.DirectoryScanner;
 
 
 /**
- * <p>Maven plugin to execute Jena schemagen as part of a Jena-based
+ * <p>Maven plugin to execute Jena schemagen as part of a jena.atlasd
  * project build cycle
  * </p>
 */

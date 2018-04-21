@@ -24,7 +24,6 @@ import org.apache.jena.graph.Graph ;
 import org.apache.jena.graph.Node ;
 import org.apache.jena.graph.Triple ;
 import org.apache.jena.graph.impl.TripleStore ;
-import org.apache.jena.util.iterator.* ;
 
 public abstract class GraphTripleStoreBase implements TripleStore
     {

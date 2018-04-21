@@ -27,7 +27,6 @@ import org.apache.jena.graph.Graph ;
 import org.apache.jena.graph.Node ;
 import org.apache.jena.graph.Triple;
 import org.apache.jena.query.* ;
-import org.apache.jena.rdf.model.* ;
 import org.apache.jena.sparql.core.DatasetGraph;
 import org.apache.jena.sparql.core.DatasetGraphFactory;
 import org.apache.jena.sparql.core.Quad;

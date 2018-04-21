@@ -19,10 +19,9 @@
 package org.apache.jena.mem.test;
 
 import junit.framework.TestSuite;
-import org.apache.jena.graph.* ;
+
 import org.apache.jena.graph.test.* ;
 import org.apache.jena.mem.GraphMem ;
-import org.apache.jena.shared.* ;
 import org.apache.jena.util.iterator.ExtendedIterator ;
 
 public class TestGraphMem extends AbstractTestGraph

@@ -22,7 +22,6 @@ import java.util.ArrayList;
 
 import org.apache.jena.atlas.logging.Log;
 import org.apache.jena.query.ResultSet;
-import org.apache.jena.rdf.model.*;
 import org.apache.jena.shared.JenaException;
 import org.apache.jena.shared.PropertyNotFoundException;
 import org.apache.jena.sparql.core.Var;

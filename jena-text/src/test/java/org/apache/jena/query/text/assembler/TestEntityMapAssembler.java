@@ -31,7 +31,6 @@ import org.apache.jena.query.text.EntityDefinition ;
 import org.apache.jena.query.text.TextIndexException ;
 import org.apache.jena.query.text.analyzer.ConfigurableAnalyzer ;
 import org.apache.jena.query.text.analyzer.LowerCaseKeywordAnalyzer ;
-import org.apache.jena.rdf.model.* ;
 import org.apache.jena.sys.JenaSystem;
 import org.apache.jena.vocabulary.RDF ;
 import org.apache.jena.vocabulary.RDFS ;

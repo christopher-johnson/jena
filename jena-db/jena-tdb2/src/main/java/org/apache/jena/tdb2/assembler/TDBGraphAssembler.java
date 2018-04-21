@@ -30,7 +30,6 @@ import org.apache.jena.assembler.exceptions.AssemblerException ;
 import org.apache.jena.atlas.logging.Log ;
 import org.apache.jena.dboe.base.file.Location;
 import org.apache.jena.query.Dataset ;
-import org.apache.jena.rdf.model.* ;
 import org.apache.jena.riot.out.NodeFmtLib ;
 import org.apache.jena.tdb2.TDB2;
 import org.apache.jena.tdb2.TDB2Factory;

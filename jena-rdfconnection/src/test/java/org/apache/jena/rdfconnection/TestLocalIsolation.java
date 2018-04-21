@@ -22,7 +22,6 @@ import static org.junit.Assert.assertEquals;
 
 import org.apache.jena.query.Dataset;
 import org.apache.jena.query.DatasetFactory;
-import org.apache.jena.rdf.model.*;
 import org.apache.jena.shared.JenaException;
 import org.apache.jena.sparql.core.Quad;
 import org.apache.jena.sparql.sse.SSE;

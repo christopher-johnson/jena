@@ -26,7 +26,6 @@ import java.io.OutputStream;
 import java.io.Writer;
 
 import org.apache.jena.JenaRuntime ;
-import org.apache.jena.rdf.model.* ;
 
 /** Entry point for N3 writers.  This writer will choose the actual writer
  *  to use by looking at the system property

@@ -21,7 +21,7 @@ package org.apache.jena.mem.test;
 import java.util.Iterator ;
 
 import junit.framework.TestSuite ;
-import org.apache.jena.graph.* ;
+
 import org.apache.jena.graph.test.AbstractTestGraph ;
 import org.apache.jena.util.iterator.ExtendedIterator ;
 

@@ -32,7 +32,6 @@ import org.apache.jena.jdbc.results.metadata.AskResultsMetadata ;
 import org.apache.jena.jdbc.results.metadata.TripleResultsMetadata ;
 import org.apache.jena.query.Dataset ;
 import org.apache.jena.query.DatasetFactory ;
-import org.apache.jena.rdf.model.* ;
 import org.apache.jena.rdf.model.Statement ;
 import org.apache.jena.sparql.util.NodeFactoryExtra ;
 import org.apache.jena.sys.JenaSystem ;

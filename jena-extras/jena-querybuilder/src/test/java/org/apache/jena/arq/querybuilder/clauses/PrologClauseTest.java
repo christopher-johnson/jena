@@ -23,7 +23,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.apache.jena.arq.querybuilder.AbstractQueryBuilder;
-import org.apache.jena.arq.querybuilder.clauses.PrologClause;
 import org.apache.jena.arq.querybuilder.handlers.PrologHandler;
 import org.apache.jena.graph.NodeFactory ;
 import org.apache.jena.rdf.model.ResourceFactory ;

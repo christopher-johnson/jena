@@ -20,7 +20,6 @@ package org.apache.jena.sparql.modify;
 
 
 import org.apache.jena.atlas.iterator.Iter ;
-import org.apache.jena.graph.* ;
 import org.apache.jena.query.ARQ ;
 import org.apache.jena.query.QueryException ;
 import org.apache.jena.query.QueryFactory ;

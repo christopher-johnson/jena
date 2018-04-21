@@ -31,7 +31,6 @@ import org.apache.jena.fuseki.Fuseki ;
 import org.apache.jena.fuseki.FusekiConfigException ;
 import org.apache.jena.fuseki.HttpNames ;
 import org.apache.jena.query.* ;
-import org.apache.jena.rdf.model.* ;
 import org.apache.jena.shared.PrefixMapping ;
 import org.apache.jena.sparql.core.DatasetGraph ;
 import org.apache.jena.sparql.core.DatasetGraphFactory ;

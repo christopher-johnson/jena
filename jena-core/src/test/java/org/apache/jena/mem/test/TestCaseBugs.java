@@ -18,9 +18,7 @@
 
 package org.apache.jena.mem.test;
 
-import org.apache.jena.rdf.model.* ;
-
-public class TestCaseBugs 
+public class TestCaseBugs
             extends TestCaseBasic {
                 
     Model model = null;

@@ -1,1 +1,1 @@
-org.apache.jena.sys.InitJenaCore
+org.apache.jena.system.InitJenaCore

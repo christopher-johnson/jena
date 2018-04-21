@@ -24,7 +24,6 @@ import org.apache.http.auth.BasicUserPrincipal ;
 import org.apache.jena.graph.Node;
 import org.apache.jena.graph.Triple;
 import org.apache.jena.permissions.SecurityEvaluator ;
-import org.apache.jena.rdf.model.* ;
 import org.apache.jena.shared.AuthenticationRequiredException;
 import org.apache.jena.vocabulary.RDF ;
 

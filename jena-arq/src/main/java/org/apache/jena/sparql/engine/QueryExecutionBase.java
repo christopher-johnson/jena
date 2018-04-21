@@ -30,7 +30,6 @@ import org.apache.jena.atlas.logging.Log;
 import org.apache.jena.graph.Node;
 import org.apache.jena.graph.Triple;
 import org.apache.jena.query.* ;
-import org.apache.jena.rdf.model.* ;
 import org.apache.jena.riot.system.IRIResolver;
 import org.apache.jena.shared.PrefixMapping;
 import org.apache.jena.sparql.ARQConstants;

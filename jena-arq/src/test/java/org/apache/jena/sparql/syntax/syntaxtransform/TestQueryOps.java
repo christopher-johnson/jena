@@ -22,7 +22,6 @@ import org.apache.jena.atlas.junit.BaseTest ;
 import org.junit.Test ;
 import org.apache.jena.query.Query ;
 import org.apache.jena.query.QueryFactory ;
-import org.apache.jena.sparql.syntax.syntaxtransform.QueryTransformOps ;
 
 public class TestQueryOps  extends BaseTest
 {

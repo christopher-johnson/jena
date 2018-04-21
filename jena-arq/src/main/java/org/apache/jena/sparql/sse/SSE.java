@@ -60,7 +60,6 @@ import org.apache.jena.sparql.vocabulary.FOAF ;
 import org.apache.jena.sparql.vocabulary.ListPFunction ;
 import org.apache.jena.system.JenaInit;
 import org.apache.jena.util.FileUtils ;
-import org.apache.jena.vocabulary.* ;
 
 /**
  * <a href="https://jena.apache.org/documentation/notes/sse.html"

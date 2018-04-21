@@ -26,8 +26,6 @@ import junit.framework.TestCase;
 import org.apache.jena.rdf.model.Model ;
 import org.apache.jena.rdf.model.ModelFactory ;
 import org.apache.jena.rdf.model.RDFReader ;
-import org.apache.jena.rdfxml.xmlinput.SAX2Model ;
-import org.apache.jena.rdfxml.xmlinput.SAX2RDF ;
 import org.apache.jena.rdfxml.xmlinput.SAX2RDFTest.RDFEHArray ;
 import org.apache.xerces.parsers.SAXParser;
 import org.xml.sax.InputSource;

@@ -23,7 +23,6 @@ import static org.apache.jena.sparql.core.Quad.ANY;
 import java.util.Iterator;
 import java.util.function.Function;
 
-import org.apache.jena.graph.*;
 import org.apache.jena.graph.compose.Difference;
 import org.apache.jena.sparql.core.DatasetGraph;
 import org.apache.jena.util.iterator.ExtendedIterator;

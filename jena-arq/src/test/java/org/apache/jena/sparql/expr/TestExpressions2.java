@@ -20,9 +20,6 @@ package org.apache.jena.sparql.expr;
 
 import org.apache.jena.atlas.junit.BaseTest ;
 import org.apache.jena.query.QueryParseException ;
-import org.apache.jena.sparql.expr.Expr ;
-import org.apache.jena.sparql.expr.ExprEvalException ;
-import org.apache.jena.sparql.expr.NodeValue ;
 import org.apache.jena.sparql.expr.nodevalue.XSDFuncOp ;
 import org.apache.jena.sparql.function.FunctionEnvBase ;
 import org.apache.jena.sparql.util.ExprUtils ;

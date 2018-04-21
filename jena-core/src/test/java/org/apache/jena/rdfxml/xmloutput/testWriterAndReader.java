@@ -24,7 +24,7 @@ import java.util.Vector ;
 
 import junit.framework.Test ;
 import junit.framework.TestSuite ;
-import org.apache.jena.rdf.model.* ;
+
 import org.apache.jena.rdf.model.test.ModelTestBase ;
 import org.apache.jena.shared.JenaException ;
 import org.apache.jena.vocabulary.RDFSyntax ;

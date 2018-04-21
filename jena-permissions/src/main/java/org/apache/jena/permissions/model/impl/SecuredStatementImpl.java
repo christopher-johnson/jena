@@ -23,7 +23,6 @@ import org.apache.jena.permissions.impl.ItemHolder;
 import org.apache.jena.permissions.impl.SecuredItemImpl;
 import org.apache.jena.permissions.impl.SecuredItemInvoker;
 import org.apache.jena.permissions.model.*;
-import org.apache.jena.rdf.model.*;
 import org.apache.jena.shared.AddDeniedException;
 import org.apache.jena.shared.AuthenticationRequiredException;
 import org.apache.jena.shared.DeleteDeniedException;

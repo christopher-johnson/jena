@@ -18,7 +18,6 @@
 package org.apache.jena.permissions.model.impl;
 
 import org.apache.jena.permissions.SecuredItem;
-import org.apache.jena.rdf.model.*;
 import org.apache.jena.shared.AuthenticationRequiredException;
 import org.apache.jena.shared.ReadDeniedException;
 

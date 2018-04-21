@@ -25,8 +25,6 @@ import org.apache.jena.permissions.StaticSecurityEvaluator;
 import org.apache.jena.permissions.impl.CachedSecurityEvaluator;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class CachedSecurityEvaluatorTest {
 
 	private StaticSecurityEvaluator securityEvaluator;

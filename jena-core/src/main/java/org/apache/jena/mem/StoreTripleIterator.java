@@ -20,8 +20,6 @@ package org.apache.jena.mem;
 
 import java.util.Iterator;
 
-import org.apache.jena.graph.* ;
-
 /**
      An iterator wrapper for NodeToTriplesMap iterators which ensures that
      a .remove on the base iterator is copied to the other two maps of this

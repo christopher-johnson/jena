@@ -154,7 +154,8 @@
       <modules>
         <module>jena-shaded-guava</module>
         <module>jena-iri</module>
-        <module>jena-base</module>
+        <module>jena.atlas</module>
+        <module>jena.assembler</module>
         
         <module>jena-core</module>
         <module>jena-arq</module>
@@ -220,9 +221,21 @@
         <!-- Basic modules -->
         <module>jena-shaded-guava</module>
         <module>jena-iri</module>
-        <module>jena-base</module>
 
         <!-- Main modules -->
+        <module>jena.atlas</module>
+        <module>jena.assembler</module>
+        <module>jena.datatypes</module>
+        <module>jena.enhanced</module>
+        <module>jena.graph</module>
+        <module>jena.ontology</module>
+        <module>jena.rdf</module>
+        <module>jena.reasoner</module>
+        <module>jena.shared</module>
+        <module>jena.test</module>
+        <module>jena.system</module>
+        <module>jena.util</module>
+        <module>jena.vocabulary</module>
         <module>jena-core</module>
         <module>jena-arq</module>
         <module>jena-rdfconnection</module>

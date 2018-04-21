@@ -26,7 +26,6 @@ import org.apache.jena.graph.Node ;
 import org.apache.jena.graph.Triple ;
 import org.apache.jena.permissions.Factory ;
 import org.apache.jena.permissions.SecurityEvaluator ;
-import org.apache.jena.rdf.model.* ;
 import org.apache.jena.vocabulary.RDF ;
 import org.junit.Assert ;
 import org.junit.Before ;

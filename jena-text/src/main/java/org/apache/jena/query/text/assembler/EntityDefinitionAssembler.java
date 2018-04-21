@@ -36,7 +36,6 @@ import org.apache.jena.graph.Node ;
 import org.apache.jena.query.* ;
 import org.apache.jena.query.text.EntityDefinition ;
 import org.apache.jena.query.text.TextIndexException ;
-import org.apache.jena.rdf.model.* ;
 import org.apache.jena.vocabulary.RDF ;
 import org.apache.lucene.analysis.Analyzer;
 

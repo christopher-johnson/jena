@@ -22,7 +22,6 @@ import java.util.Set ;
 import org.apache.jena.graph.Node;
 import org.apache.jena.graph.Triple;
 import org.apache.jena.permissions.SecurityEvaluator ;
-import org.apache.jena.rdf.model.* ;
 import org.apache.jena.vocabulary.RDF ;
 import org.apache.shiro.SecurityUtils ;
 import org.apache.shiro.subject.Subject ;

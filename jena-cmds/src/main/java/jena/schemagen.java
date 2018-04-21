@@ -37,7 +37,17 @@ import java.util.regex.PatternSyntaxException ;
 import org.apache.jena.ontology.Individual ;
 import org.apache.jena.ontology.OntModel ;
 import org.apache.jena.ontology.OntModelSpec ;
-import org.apache.jena.rdf.model.* ;
+import org.apache.jena.rdf.model.Literal;
+import org.apache.jena.rdf.model.Model;
+import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.rdf.model.NodeIterator;
+import org.apache.jena.rdf.model.Property;
+import org.apache.jena.rdf.model.RDFNode;
+import org.apache.jena.rdf.model.RDFWriter;
+import org.apache.jena.rdf.model.Resource;
+import org.apache.jena.rdf.model.ResourceFactory;
+import org.apache.jena.rdf.model.Statement;
+import org.apache.jena.rdf.model.StmtIterator;
 import org.apache.jena.shared.JenaException ;
 import org.apache.jena.util.FileManager ;
 import org.apache.jena.util.iterator.ExtendedIterator ;
@@ -1162,7 +1172,7 @@ public class schemagen {
         StringBuffer comment = new StringBuffer();
 
         // collect any RDFS or DAML comments attached to the node
-        for (NodeIterator ni = m_source.listObjectsOfProperty( r, RDFS.comment );  ni.hasNext(); ) {
+        for (NodeIterator ni = m_source.listObjectsOfProperty( r, RDFS.comment ); ni.hasNext(); ) {
             RDFNode n = ni.nextNode();
             if (n instanceof Literal) {
                 comment.append( ((Literal) n).getLexicalForm().trim() );

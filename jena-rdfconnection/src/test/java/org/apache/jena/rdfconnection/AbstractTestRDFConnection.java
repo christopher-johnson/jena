@@ -28,7 +28,6 @@ import org.apache.jena.query.DatasetFactory;
 import org.apache.jena.query.ReadWrite;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
-import org.apache.jena.rdfconnection.RDFConnection;
 import org.apache.jena.riot.RDFDataMgr;
 import org.apache.jena.sparql.core.DatasetGraph;
 import org.apache.jena.sparql.sse.SSE;

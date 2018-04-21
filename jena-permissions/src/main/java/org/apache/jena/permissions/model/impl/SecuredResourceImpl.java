@@ -29,7 +29,6 @@ import org.apache.jena.permissions.model.SecuredModel;
 import org.apache.jena.permissions.model.SecuredResource;
 import org.apache.jena.permissions.model.SecuredStatement;
 import org.apache.jena.permissions.utils.PermStatementFilter;
-import org.apache.jena.rdf.model.*;
 import org.apache.jena.shared.AddDeniedException;
 import org.apache.jena.shared.AuthenticationRequiredException;
 import org.apache.jena.shared.PropertyNotFoundException;

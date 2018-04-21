@@ -20,7 +20,6 @@ package org.apache.jena.sdb.graph;
 
 import java.util.Iterator ;
 
-import org.apache.jena.graph.* ;
 import org.apache.jena.graph.impl.AllCapabilities ;
 import org.apache.jena.graph.impl.GraphBase ;
 import org.apache.jena.sdb.SDB ;

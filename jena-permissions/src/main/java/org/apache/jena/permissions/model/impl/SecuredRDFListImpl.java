@@ -36,7 +36,6 @@ import org.apache.jena.permissions.model.SecuredRDFList;
 import org.apache.jena.permissions.model.SecuredRDFNode;
 import org.apache.jena.permissions.utils.RDFListIterator;
 import org.apache.jena.permissions.utils.RDFListSecFilter;
-import org.apache.jena.rdf.model.*;
 import org.apache.jena.shared.AddDeniedException;
 import org.apache.jena.shared.AuthenticationRequiredException;
 import org.apache.jena.shared.DeleteDeniedException;

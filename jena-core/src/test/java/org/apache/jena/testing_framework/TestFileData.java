@@ -24,7 +24,6 @@ import java.io.* ;
 import java.util.HashMap ;
 import java.util.Map ;
 
-import org.apache.jena.graph.* ;
 import org.apache.jena.rdf.model.Model ;
 import org.apache.jena.rdf.model.ModelFactory ;
 import org.junit.Test ;

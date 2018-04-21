@@ -18,7 +18,6 @@
 
 package org.apache.jena.mem.test;
 
-import org.apache.jena.graph.* ;
 import org.apache.jena.mem.* ;
 
 public class TestHashedTripleBunch extends TestTripleBunch

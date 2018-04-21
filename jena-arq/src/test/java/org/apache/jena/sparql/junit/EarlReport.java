@@ -20,7 +20,6 @@ package org.apache.jena.sparql.junit;
 
 import org.apache.jena.atlas.lib.DateTimeUtils ;
 import org.apache.jena.datatypes.xsd.XSDDatatype ;
-import org.apache.jena.rdf.model.* ;
 import org.apache.jena.sparql.vocabulary.DOAP ;
 import org.apache.jena.sparql.vocabulary.EARL ;
 import org.apache.jena.sparql.vocabulary.FOAF ;

@@ -18,7 +18,6 @@
 
 package org.apache.jena.sparql.graph;
 
-import org.apache.jena.graph.* ;
 import org.apache.jena.shared.AddDeniedException ;
 import org.apache.jena.shared.DeleteDeniedException ;
 import org.apache.jena.shared.PrefixMapping ;
